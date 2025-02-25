@@ -54,7 +54,6 @@ public class Controller {
      */
     public void actionDemarrerNouveauJeu() {
         // VOTRE CODE ICI...
-        refServiceDevine.penserAUnNombre();
         nombre = refServiceDevine.penserAUnNombre();
         refView.afficherStatus("Deviner !", Color.YELLOW);
     }
